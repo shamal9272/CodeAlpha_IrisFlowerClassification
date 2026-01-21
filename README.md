@@ -1,9 +1,9 @@
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/26b17ebb-dae5-4afe-b4a6-5258c90fbabe" />#  Iris Flower Classification  
-## CodeAlpha Data Science Internship – Task 1
+****## CodeAlpha Data Science Internship – Task 1
 
 ---
 
-##  Project Description
+****##  Project Description
 This project is part of the CodeAlpha Data Science Internship (Task 1).  
 The aim of this project is to build a machine learning classification model that can predict the species of an Iris flower based on its physical characteristics.
 
@@ -11,7 +11,7 @@ The classification is done using Logistic Regression, a supervised machine learn
 
 ---
 
-##  Objective
+****##  Objective
 To classify Iris flowers into one of the following species:
 - Iris Setosa
 - Iris Versicolor
@@ -25,16 +25,18 @@ based on:
 
 ---
 
-## Dataset used
-- Dataset Name: Iris Flower Dataset  
-- Source: Built-in dataset from scikit-learn  
-- Total Samples: 150  
-- Features: 4  
-- Classes: 3  
+****##  Dataset Used
+- Dataset Name: Iris Flower Dataset
+- Source: Kaggle / Public CSV Dataset
+- File Name: Iris.csv
+- Total Samples: 150
+- Features: 4
+- Classes: 3 (Setosa, Versicolor, Virginica)
 
-The dataset is loaded directly using:
+The dataset is loaded using pandas:
 ```python
-from sklearn.datasets import load_iris
+import pandas as pd
+data = pd.read_csv("Iris.csv")
 
 **##  Technologies Used**
 - Programming Language: Python  
@@ -117,3 +119,4 @@ Thanks to CodeAlpha for providing this internship opportunity and hands-on learn
 Name: Shamal Saste
 Internship Role: Data Science Intern
 Organization: CodeAlpha
+
