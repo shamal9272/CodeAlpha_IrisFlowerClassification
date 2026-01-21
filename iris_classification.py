@@ -30,4 +30,5 @@ cm = confusion_matrix(y_test, y_pred)
 sns.heatmap(cm, annot=True, cmap='Blues')
 plt.show()
 
-plt.show()
+
+
