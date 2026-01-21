@@ -1,4 +1,4 @@
-#  Iris Flower Classification  
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/26b17ebb-dae5-4afe-b4a6-5258c90fbabe" />#  Iris Flower Classification  
 ## CodeAlpha Data Science Internship – Task 1
 
 ---
@@ -25,7 +25,7 @@ based on:
 
 ---
 
-##  Dataset Used
+## Dataset used
 - Dataset Name: Iris Flower Dataset  
 - Source: Built-in dataset from scikit-learn  
 - Total Samples: 150  
@@ -36,7 +36,7 @@ The dataset is loaded directly using:
 ```python
 from sklearn.datasets import load_iris
 
-##  Technologies Used
+**##  Technologies Used**
 - Programming Language: Python  
 - Libraries:
   - NumPy
@@ -47,14 +47,14 @@ from sklearn.datasets import load_iris
 
 ---
 
-##  Machine Learning Algorithm
+**##  Machine Learning Algorithm**
 - Logistic Regression
 - Suitable for multi-class classification problems
 - Simple and efficient for small datasets
 
 ---
 
-##  Project Workflow
+**##  Project Workflow**
 1. Import required Python libraries  
 2. Load the Iris dataset  
 3. Split data into training and testing sets  
@@ -65,8 +65,7 @@ from sklearn.datasets import load_iris
 
 ---
 
-##  How to Run the Project
-
+**##  How to Run the Project**
 1. Open Command Prompt
 2. Navigate to the project folder:
    
@@ -78,21 +77,25 @@ from sklearn.datasets import load_iris
 
 ---
 
-## Output
-
+**## Output**
 - Accuracy score printed in the terminal
 - Classification report (Precision, Recall, F1-score)
 - Confusion matrix displayed as a graph
 
 ---
 
-## Result
+**## Sample output**
+![Model Output](output.png)
+
+---
+
+**## Result**
 
 The model achieves high accuracy (~96%) in predicting Iris flower species, demonstrating effective use of machine learning classification techniques.
 
 ---
 
-## Conclusion
+**## Conclusion**
 
 This project demonstrates:
 
@@ -104,13 +107,13 @@ This project demonstrates:
 
 ---
 
-##  Acknowledgment
+**##  Acknowledgment**
 
 Thanks to CodeAlpha for providing this internship opportunity and hands-on learning experience.
 
 ---
 
-👤 Author
+**👤 Author**
 Name: Shamal Saste
 Internship Role: Data Science Intern
 Organization: CodeAlpha
