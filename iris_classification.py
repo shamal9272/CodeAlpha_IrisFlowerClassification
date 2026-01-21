@@ -1,9 +1,12 @@
 # Iris Flower Classification using Machine Learning
 
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load dataset
 data = pd.read_csv("Iris.csv")
@@ -33,4 +36,25 @@ print("Accuracy:", accuracy)
 print("\nClassification Report:\n")
 print(classification_report(y_test, y_pred))
 
+# Confusion Matrix Graph
+
+cm = confusion_matrix(y_test, y_pred)
+
+plt.figure(figsize=(6, 4))
+sns.heatmap(
+    cm,
+    annot=True,
+    fmt="d",
+    cmap="Blues",
+    xticklabels=model.classes_,
+    yticklabels=model.classes_
+)
+
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.title("Confusion Matrix - Iris Flower Classification")
+
+# Save graph as image (for GitHub & README)
+plt.savefig("output.png")
+plt.show()
 
