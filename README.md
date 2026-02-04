@@ -87,7 +87,7 @@ data = pd.read_csv("Iris.csv")
 ---
 
 **## Sample output**
-![Model Output](output.png)
+![Model Output](graph.png)
 
 ---
 
@@ -119,4 +119,5 @@ Thanks to CodeAlpha for providing this internship opportunity and hands-on learn
 Name: Shamal Saste
 Internship Role: Data Science Intern
 Organization: CodeAlpha
+
 
