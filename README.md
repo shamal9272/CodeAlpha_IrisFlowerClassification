@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/26b17ebb-dae5-4afe-b4a6-5258c90fbabe" />#  Iris Flower Classification  
+#  Iris Flower Classification  
 ****## CodeAlpha Data Science Internship – Task 1
 
 ---
