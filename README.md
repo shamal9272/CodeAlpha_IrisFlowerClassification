@@ -87,7 +87,8 @@ data = pd.read_csv("Iris.csv")
 ---
 
 **## Sample output**
-![Model Output](graph.png)
+![Iris Flower Graph](graph.png)
+
 
 ---
 
